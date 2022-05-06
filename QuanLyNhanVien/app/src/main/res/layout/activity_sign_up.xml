@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Tài khoản"
+            android:textColor="#039BE5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/newName"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Mật khẩu"
+            android:textColor="#039BE5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/newPass"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="93dp"
+            android:textSize="15sp"
+            android:hint="Mật khẩu tối thiểu 6 ký tự"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Nhập lại Mật khẩu"
+            android:textColor="#039BE5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/repeatPass"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Mật khẩu tối thiểu 6 ký tự"
+            android:textSize="15sp"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:text="Đăng Ký"
+        android:textSize="20sp"
+        android:id="@+id/dangky">
+
+    </Button>
+
+</LinearLayout>
